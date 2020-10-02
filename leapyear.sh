@@ -5,7 +5,7 @@ then
 echo "The Year is Leap Year"
 elif [ `expr $y % 400` -eq 0 ]
 then
-echo "The Year is Leap Year"
+echo "The year is Leap Year"
 else
-echo "The Year is Not Leap Year"
+echo "The year is Not Leap Year"
 fi
